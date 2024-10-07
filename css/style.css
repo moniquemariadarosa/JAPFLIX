@@ -1,28 +1,38 @@
-.img-card-fit {
+.img-tarjeta-ajustada {
     object-fit: cover;
     width: 100%;
     height: auto;
 }
 
-.img-cont {
+.cont-img {
     height: 200px;
     overflow: hidden;
     background-color: beige;
 }
 
-.card-content{
+.contenido-tarjeta {
     height: 150px;
     overflow: auto;
 }
 
 main {
     min-height: calc(100vh - 100px);
-  }
+}
 
-.checked{
+.checked {
     color: orange;
 }
 
-.offcanvas-top{
+.offcanvas-top {
     height: fit-content;
+}
+
+.divisor-genero {
+    border-top: 1px solid gray; 
+    margin: 10px 0; 
+}
+
+.menu-desplegable {
+    padding: 10px;
+    font-size: 14px;
 }
